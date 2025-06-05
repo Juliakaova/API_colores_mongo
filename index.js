@@ -11,7 +11,7 @@ servidor.use(cors());
 
 servidor.use(express.json());
 
-servidor.use("/pruebas", express.static("./pruebas"));
+//servidor.use("/pruebas", express.static("./pruebas"));
 
 servidor.get("/colores", async (peticion,respuesta) => {
     try{
